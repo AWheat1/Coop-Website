@@ -1,0 +1,46 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+}
+body{
+    background-color: #202020;
+}
+html {
+    scroll-behavior: smooth;
+  }
+/* HOME TRANSITIONING */
+.section-padding{
+    padding: 100px 0;
+}
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+}
+#websiteName {
+    z-index: 2;
+    font-weight: bold;
+  }
+
+#websiteName h1{
+    color: #1982c4;
+}
+#websiteName p{
+    color: whitesmoke;
+}
+/* NAVBAR */
+li:hover, .btn-outline-light:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    color: white;
+}
+li:active{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* ITEMS */
+.card:hover{
+    background-color: #ff525f;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
